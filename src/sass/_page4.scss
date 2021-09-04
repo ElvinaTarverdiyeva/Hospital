@@ -1,0 +1,119 @@
+@media only screen and (max-width: 4000px) {
+  .page4animate{
+    .page4img{
+        animation: scale-down-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .pagetext{
+        animation: page2div2 2s linear 0s;  
+    }
+  }
+    .page4{
+   width: 100%;
+   height: auto;
+   background-image: url("../img/page4.png");
+   background-size:cover;
+   background-repeat: no-repeat;
+   padding: 10px 10%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   .page4img{
+       width: 600px;
+   }
+   .pagetext{
+    width: 600px;
+       margin-top: 140px;
+       h1{
+           color:  #013243;
+           font-family: 'Secular One', sans-serif;
+       }
+       p{
+        font-size: 18px;
+        font-family: 'Hahmlet', serif;
+       }
+       .textimgdiv{
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: row;
+            .doctorimg{
+            padding: 15px;
+            img{
+                width: 120px;
+            }
+}
+           .doctortext{
+               span{
+                color:  rgb(240, 124, 41);
+                font-family: 'Secular One', sans-serif;
+                font-size: 70px;
+               }
+               h2{
+                color:  #013243;
+                font-family: 'Secular One', sans-serif;
+                padding-top: 20px;
+               }
+               p{
+                   font-size: 14px;
+               }
+           }
+       }
+   }
+
+}
+}
+@media only screen and (max-width: 1520px) {
+    .page4{
+   padding: 10px 5%;
+  
+}
+}
+@media only screen and (max-width: 1350px) {
+    .page4{
+        height: 500px;
+   justify-content: space-evenly;
+   .page4img{
+       display: none;
+   }
+   .pagetext{
+       margin-top: 100px;
+       .textimgdiv{
+            padding: 10px 10px;
+   }
+
+}
+}
+}
+@media only screen and (max-width: 600px) {
+    .page4{
+
+        height: 700px;
+        margin-top: -150px;
+.pagetext{
+    width: 600px;
+    margin-top: 180px;
+       .textimgdiv{
+        padding: 10px 10px;
+            .doctorimg{
+            padding: 10px;
+}
+           .doctortext{
+               span{
+                color:  rgb(240, 124, 41);
+                font-family: 'Secular One', sans-serif;
+                font-size: 50px;
+               }
+               h2{
+                   margin-top: -20px;
+                color:  #013243;
+                font-family: 'Secular One', sans-serif;
+                padding-top: 20px;
+               }
+               p{
+                   font-size: 14px;
+               }
+           }
+       }
+   }
+}
+}

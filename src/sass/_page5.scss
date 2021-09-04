@@ -1,0 +1,112 @@
+@media only screen and (max-width: 4000px) {
+    .page5{
+    width: 100%;
+    height: auto;
+    .bgimg5{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .play-btn {
+            position: absolute;
+            top: 40%;
+            left: 25%;
+            background: #fff;
+            font-size: 40px;
+            padding-right: 5px;
+            width: 80px;
+            height: 80px;
+            margin: auto;
+            text-align: center;
+            border-radius: 50%;
+            a{
+                color: rgb(240, 124, 41);
+                transition: 0.5s;
+                position: relative;
+                z-index: 2;
+                i {
+                line-height: 80px;
+                margin-left: 10px;
+            }
+            }
+            
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                border: 1px solid rgb(240, 124, 41);
+                border-radius: 50%;
+                left: -20px;
+                right: -20px;
+                top: -20px;
+                bottom: -20px;
+                animation: animate 1.5s linear infinite;
+                opacity: 0;
+            }
+            &::after {
+                animation-delay: 0.5s;
+            }
+            &:hover{
+                cursor: pointer;
+                a{
+                    color: #09c2e8;
+                    
+                }
+            } 
+        }
+    }
+    .page5about{
+        width: 100%;
+        height: auto;
+        background: rgb(254,254,254);
+        background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(8,131,227,0.12088585434173671) 30%, rgba(79,159,222,0.24693627450980393) 48%, rgba(8,131,227,0.4906337535014006) 100%);
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        padding:70px 0;
+        .page5aboutimg{
+            width: 500px;
+        }
+        .page5aboutimgani{
+            animation: scale-down-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .page5abouttextani{
+            animation: scale-down-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+        .page5abouttext{
+            margin-left: 50px;
+            width: 800px;
+            h2{
+                color:  #013243;
+                font-family: 'Secular One', sans-serif;
+            }
+            p{
+            font-size: 18px;
+            font-family: 'Hahmlet', serif;
+            }
+
+        }
+    }
+        
+}
+}
+@media only screen and (max-width: 950px) {
+    .page5{
+        .bgimg5{
+            img{
+                width: 100%;
+                height: 250px;
+            }
+        }
+        .page5about{    
+            flex-wrap: wrap;
+            .page5aboutimg{
+            width: 500px;
+            }
+            .page5abouttext{
+            margin-top: 50px;     
+            }
+        }
+    }
+}
+

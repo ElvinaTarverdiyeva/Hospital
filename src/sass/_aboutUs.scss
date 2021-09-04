@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@media only screen and (max-width: 4000px) {
+    .about{
+    position: relative;
+    z-index: -1;
+    height: auto;
+    .abouthed{
+        border: 1px solid transparent;
+        height: 700px;
+        background-image: url("../img/aboutus.png");
+        background-size: cover;
+        .hedtext{
+            width: 520px;
+            margin-top: 15rem;
+            margin-left: 20.2%;
+            animation: hedtextani 2s linear 0s;
+        h2{
+            font-size: 50px;
+            color: #013243;
+            font-family: 'Libre Baskerville', serif;
+        }
+        img{
+            width: 520px;
+            margin-left: -25px;
+            margin-top: -130px;
+        }
+    }
+}
+    .aboutpage2ani{
+        .div1{
+            animation: page2div1 2s linear 0s;
+        }
+        .div2{
+            animation: page2div2 2s linear 0s;  
+        }
+    }
+    .aboutpage2{
+        background-image: url("../img/page11bg.png");
+        padding: 60px 15% ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .div2{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            h1{
+            font-size: 50px;
+            font-family: 'Secular One', sans-serif;
+            color: #013243;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 18px;
+            font-family: 'Hahmlet', serif;
+        }
+        ul{
+            margin-top: 30px;
+            list-style: none;
+            margin-left: -30px;
+            li{
+                display: flex;
+                flex-direction: row;
+                
+                div{
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: rgba(255, 255, 255, 0.637);
+                    border: 1px solid #493dcc;
+                    transition: 0.5s;
+                    i{
+                        margin-top: 12px;
+                        color: #493dcc;
+                    }
+                    &:hover{
+                        background-color: white;
+                        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+                    }
+                }
+                p{
+                    margin-top: 8px;
+                    margin-left: 10px;
+                    font-family: 'Hahmlet', serif;
+                }
+            }
+        }
+    }
+}
+}
+}
+@media only screen and (max-width: 1490px) {
+    .about{
+        .aboutpage2{
+            padding: 60px 5%;
+    }
+    }
+}
+@media only screen and (max-width: 1145px) {
+    .about{
+        .aboutpage2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .div2{
+                width: 100%;
+                text-align: center;
+                flex-direction: column;
+                align-items:center;
+        }
+    }
+}
+    }
+    @media only screen and (max-width:590px) {
+        .about{
+            .aboutpage2{
+
+                .div2{
+                    ul{
+                        margin-top: 30px;
+                        list-style: none;
+                        margin-left: -30px;
+                        li{
+                            div{
+                                display: none;                              
+                            }
+                            p{
+                                border: 1px solid #493dcc;
+                                padding:5px 60px;
+                                margin-left: 0px;
+                                transition: 0.5s;
+                                &:hover{
+                                    background-color: #493dcc42;
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+        }

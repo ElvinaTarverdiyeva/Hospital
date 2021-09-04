@@ -1,0 +1,80 @@
+@media only screen and (max-width: 4000px) {
+    .page6{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/page6bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 90px 20%;
+    .cart4{
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-between;
+        .cart1{
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            margin: 20px 10px;
+         
+            img{
+                margin-top: 30px;
+            }
+            h1{
+                color: #1e0b9b;
+                font-size: 60px;
+                font-family: 'Titillium Web', sans-serif;
+            }
+            h6{
+                font-family: 'Hahmlet', serif;
+            }
+        }
+    }
+
+}
+}
+@media only screen and (max-width: 1360px) {
+    .page6{
+        .cart4{
+            flex-wrap: wrap;
+            .cart1{
+                width: 250px;
+                height: 200px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 925px) {
+    body{
+        overflow-x:hidden !important;
+    }
+    .page6{
+        padding:0;
+        .cart4{
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            .cart1{
+                width: 400px;
+                height: 200px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+    .page6{
+margin-top: 200px;
+        .cart4{
+
+            .cart1{
+                width: 250px;
+                height: 200px;
+            }
+        }
+    }
+}

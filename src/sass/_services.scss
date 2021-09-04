@@ -1,0 +1,29 @@
+@media only screen and (max-width: 4000px) {
+    .services{
+    position: relative;
+    z-index: -1;
+   height: auto;
+   .serviceshed{
+    border: 1px solid transparent;
+    height: 900px;
+    background-image: url("../img/services.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 250px;
+    h2{
+        color: white;
+        font-size: 40px;
+        font-family: 'Libre Baskerville', serif;
+        margin-top: 26rem;
+        animation: h2ani 0.8s linear 0s;
+        }
+    }
+}
+}
+@media only screen and (max-width: 1390px) {
+    .services{
+        .serviceshed{
+        margin-bottom: 50px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import "navbar";
+@import "slider";
+@import "page2";
+@import "page3";
+@import "page4";
+@import "page5";
+@import "page6";
+@import "page7";
+@import "page8";
+@import "page9";
+@import "page10";
+@import "page11";
+@import "aboutUs";
+@import "services";
+@import "departments";
+@import "blog";
+@import "footer";
+@import "animation";
+
+
+$main-color-scroll: #07CCEC;
+$sec-color-scroll: #1E0B9B;
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: $sec-color-scroll;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $main-color-scroll;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width:500px) {
+.app{
+    position: relative;
+    width:540px;
+}
+}
